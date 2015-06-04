@@ -125,7 +125,7 @@ The JSON-RPC spec provides for _positional_ parameters as well, but they
 are not supported by the Dart VM.
 
 By convention, every response returned by the Service Protocol is a subtype
-of [Response](#response) and provides a _type_ paramters which can be used
+of [Response](#response) and provides a _type_ parameter which can be used
 to distinguish the exact return type. In the example above, the
 [Version](#version) type is returned.
 
